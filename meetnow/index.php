@@ -48,7 +48,7 @@
         <script>
             const domain = 'meet.jit.si';
             const options = {
-                roomName: 'ijnap',
+                roomName: '<?= $_POST['room']?>',
                 // width: 800,
                 height: screen.height -243,
                 parentNode: document.querySelector('#meeting')
