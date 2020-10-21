@@ -23,9 +23,7 @@
                                 <h2 class="subtitle">
                                 Yet another meet app
                                 </h2>   
-                                <h3 class="subtitle">
-                                your room id is : <?= $_POST['room']?>
-                                </h3>  
+                                <p class="help">your room id is : <?= $_POST['room']?></p>  
                             <div class="card">
                                 <div class="card-content">
                                   <p class="title has-text-dark">
