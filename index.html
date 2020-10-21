@@ -24,7 +24,7 @@
 
                         <div class="card">
                             <div class="card-content">
-                                <form action="meetnow/index.html" method="post" id="createRoom">
+                                <form action="meetnow/" method="post" id="createRoom">
                                     <div class="field">
                                         <label class="label">Room Name</label>
                                         <div class="control">
@@ -56,27 +56,5 @@
               </p>
             </div>
           </footer>
-          <script>
-              $( "#createRoom" ).submit(function( event ) {
- 
-                    // Stop form from submitting normally
-                    event.preventDefault();
-
-                    // Get some values from elements on the page:
-                    var $form = $( this ),
-                    term = $form.find( "input[name='room']" ).val(),
-                    url = $form.attr( "action" );
-
-                    // Send the data using post
-                    var posting = $.post( url, { s: term } );
-
-                    // Put the results in a div
-                    posting.done(function( data ) {
-                    // var content = $( data ).find( "#content" );
-                    // $( "#result" ).empty().append( content );
-                    console.log(data)
-                    });
-                    });
-          </script>
     </body>
 </html>
