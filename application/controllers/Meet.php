@@ -28,8 +28,16 @@ class Meet extends CI_Controller {
 		}
 	}
 
-	public function yeet($param){
+	public function yeet($param = null){
+		$this->load->helper('url');
+		if($param != null){
 			$data['roomId'] = $param;
 			$this->load->view('meetNow',$data);
+		}else{
+			$romom = $this->input->post('room');
+			$data['roomId'] = $romom;
+			$this->load->view('meetNow',$data);
+		}
+			
 	}
 }

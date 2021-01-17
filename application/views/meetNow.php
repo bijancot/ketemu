@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../assets/bulma/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.css">
         <script src='https://meet.jit.si/external_api.js'></script>
     </head>
     <body>
@@ -36,7 +36,7 @@
                                 <footer class="card-footer">
                                   <p class="card-footer-item">
                                     <span>
-                                      drop your proposals to <a href="mailto:workwith@panjibaskoro.web.id">our mail</a>
+                                      drop your proposals to <a href="mailto:hey@diwangkara.dev">our mail</a>
                                     </span>
                                   </p>
                                 </footer>

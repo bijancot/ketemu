@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/bulma/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.css">
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     </head>
     <body>
@@ -24,7 +24,7 @@
 
                         <div class="card">
                             <div class="card-content">
-                                <form action="meetnow/" method="post" id="createRoom">
+                                <form action="meet/" method="post" id="createRoom">
                                     <div class="field">
                                         <label class="label">Room Name</label>
                                         <div class="control">
@@ -51,7 +51,7 @@
           <footer class="footer">
             <div class="content has-text-centered">
               <p>
-                <strong>Ketemu</strong> by <a href="https://panjibaskoro.web.id">Panji Baskoro</a>. The source code is licensed
+                <strong>Ketemu</strong> by <a href="https://diwangkara.dev">diwangkara.dev</a>. The source code is licensed
                 <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Take a look at <a href="https://github.com/bijancot/ketemu">github repository</a> for further information about the source code
               </p>
             </div>
