@@ -18,14 +18,10 @@ class Meet extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/userguide3/general/urls.html
 	 */
-	public function index($param = null)
+	public function index()
 	{
-		$this->load->helper('url');
-		if($param != null){
-			redirect('/yeet'.'/'.$param, 'refresh');
-		}else{
-			$this->load->view('helloThere');
-		}
+		$this->load->view('helloThere');
+		
 	}
 
 	public function yeet($param = null){
@@ -33,10 +29,13 @@ class Meet extends CI_Controller {
 		if($param != null){
 			$data['roomId'] = $param;
 			$this->load->view('meetNow',$data);
-		}else{
-			$romom = $this->input->post('room');
-			$data['roomId'] = $romom;
+		}if($param == null){
+		  if($some = $this->input->post('room')){
+			$data['roomId'] = $some;
 			$this->load->view('meetNow',$data);
+		  }else{
+			redirect(base_url,'refresh');
+		  }
 		}
 			
 	}

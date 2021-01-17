@@ -51,5 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'meet';
 $route['404_override'] = '';
+$route ['(:any)'] = "meet/yeet/$1";
 $route['translate_uri_dashes'] = FALSE;
-$route['/(:any)'] = 'yeet/$1';
+//$route['/(:any)'] = 'yeet/$1';
+

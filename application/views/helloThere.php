@@ -24,7 +24,7 @@
 
                         <div class="card">
                             <div class="card-content">
-                                <form action="meet/" method="post" id="createRoom">
+                                <form action="meet/yeet" method="post" id="createRoom">
                                     <div class="field">
                                         <label class="label">Room Name</label>
                                         <div class="control">

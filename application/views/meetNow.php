@@ -21,22 +21,22 @@
                                 Ketemu
                                 </h1>
                                 <h2 class="subtitle">
-                                Yet another meet app
-                                </h2>   
+                                Yet another meet app by diwangkara.dev
+                                </h2>
                                 <p class="help">your room id is : <?= $roomId?></p>  
                             <div class="card">
                                 <div class="card-content">
                                   <p class="title has-text-dark">
                                     ad banner, sponsors should be here
                                   </p>
-                                  <p class="subtitle">
-                                    Jeff Atwood
+                                  <p class="subtitle has-text-dark">
+                                    
                                   </p>
                                 </div>
                                 <footer class="card-footer">
                                   <p class="card-footer-item">
                                     <span>
-                                      drop your proposals to <a href="mailto:hey@diwangkara.dev">our mail</a>
+                                      drop your proposals to <a href="mailto:panji@diwangkara.dev">hey@diwangkara.dev</a>
                                     </span>
                                   </p>
                                 </footer>
@@ -45,7 +45,17 @@
                     </div>
                 </div>
             </div>
+
         </section>
+<footer class="footer">
+            <div class="content has-text-centered">
+              <p>
+                <strong>Ketemu</strong> by <a href="https://diwangkara.dev">diwangkara.dev</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Take a look at <a href="https://github.com/bijancot/ketemu">github repository</a> for further information ab$
+              </p>
+            </div>
+          </footer>
+
         <script>
             const domain = 'meet.jit.si';
             const options = {
